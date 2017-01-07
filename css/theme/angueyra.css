@@ -15,12 +15,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
 body {
   background: #222;
   background-color: #222; }
-
+/*
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #fff; }
+  color: #fff; }*/
+	
+.reveal {
+	  font-family: "Avenir";
+	  font-size: 38px;
+	  font-weight: normal;
+	  color: #fff; }
 
 ::selection {
   color: #fff;
@@ -240,9 +246,9 @@ body {
 .reveal footer.tF {
   align: right;
   position: absolute;
-  width: 60px;
+  width: 10%;
   right: 2%;
-  top: -30%;
+  bottom: 5%;
   font-size: smaller;	
 }
 
