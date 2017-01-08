@@ -276,12 +276,13 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #0ce3ac;
   font-family: Avenir;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
+/*normal color = #42affa*/
 
 .reveal a:hover {
   color: #8dcffc;
