@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/angueyra_reveal.css">
+		<link rel="stylesheet" href="css/juan.css">
+		<link rel="stylesheet" href="css/theme/angueyra.css">
+		
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<header class="L" style="position: absolute; top:2%; left: 10%; font-weight: 200; letter-spacing: normal; text-transform: title; text-shadow: none; text-decoration: none; font-family: Avenir"></header>
+			<header class="R" style="position: absolute; top:1%; right: 10%; font-weight: 200; letter-spacing: normal; text-transform: title; text-shadow: none; text-decoration: none; font-family: Avenir"></header>
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<div class="slides">
+				
+				<section id="s01" data-state="s01" style="text-align: left;">
+					<style>.s01 header.R:after { content: "Isaac Newton (1642 - 1727)";}</style>
+					<p>What is Newton's biggest error?</p>
+					<img class = "stretch" data-src="./resources/jan24/newton1740.jpg">
+					<p style="font-size : 75%">Opticks (1740)</p>
+				</section>
+				
+				<section id="s02" data-state="s02" style="text-align: left;">
+					<style>.s02 header.R:after { content: "Hermann von Helmholtz (1821 - 1894)"; }</style>
+					<div style = "width: 48%; height: 50%; position: absolute">
+						<img data-src="./resources/jan24/vH.jpg" width = "80%" class = "stretch">
+					</div>
+					<div style = "width: 50%; height: 50%; margin-left: 52%; position: absolute">
+						<p>Energy conservation</p>
+						<p>Unifying force underlying mechanics, heat, light, electricity and magnetism</p>
+						<p>Psychophysics (e.g. volume control)</p>
+						<p>Ophtalmoscope</p>
+						<p>Unconscious inference (perceptions are involuntary and pre-rational)</p>
+						<p style = "margin-left:10%">Prism adaptation</p>
+					</div>
+					<div style = "width: 100%; margin-top: 60%; margin-right: 2%; position: absolute; text-align: right">
+						<blockquote style="margin-right: 10%">
+							Whoever, in the pursuit of science, seeks after immediate practical utility may rest assured that he seeks in vain. — von Helmholtz (Heidelberg 1862)
+						</blockquote>
+					</div>
+				</section>
+				
+				<section id="s03" data-state="s03" style="text-align: left;">
+					<style>.s03 header.R:after { content: "What is the basis of prism adaptation?";}</style>
+					<p>Neuronal plasticity...</p>
+					<p>But what is really changing?</p>
+				</section>
+				
+				<section id="s03b" data-state="s03b" style="text-align: left;">
+					<style>.s03b header.R:after { content: "What is the basis of prism adaptation?";}</style>
+					<p>Neuronal plasticity...</p>
+					<p>But what is really changing?</p>
+					<p>Brain holds several coordinates systems for the different perceptions</p>
+					<ul style= "margin-left:10%">
+						<li>Audition</li>
+						<li>Propioception</li>
+						<li>Vision</li>
+					</ul>
+					<p></p>
+				</section>
+				
+				<section id="s03c" data-state="s03c" style="text-align: left;">
+					<style>.s03c header.R:after { content: "What is the basis of prism adaptation?";}</style>
+					<p>Neuronal plasticity...</p>
+					<p>But what is really changing?</p>
+					<p>Brain holds several coordinates systems for the different perceptions</p>
+					<ul style= "margin-left:10%">
+						<li>Audition</li>
+						<li>Propioception</li>
+						<li>Vision</li>
+					</ul>
+					<p>Prisms change the reference for visual coordinates but not for the other systems</p>
+					<p>Brain has to make changes so that the references match again</p>
+				</section>
+				
+				
+				<section id="s04" data-state="s04" style="text-align: left;">
+					<style>.s04 header.R:after { content: "What has prism adaptation been used for?";}</style>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
