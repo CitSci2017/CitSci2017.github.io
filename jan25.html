@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/angueyra_reveal.css">
+		<link rel="stylesheet" href="css/juan.css">
+		<link rel="stylesheet" href="css/theme/angueyra.css">
+		
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<header class="L" style="position: absolute; top:2%; left: 10%; font-weight: 200; letter-spacing: normal; text-transform: title; text-shadow: none; text-decoration: none; font-family: Avenir"></header>
+			<header class="R" style="position: absolute; top:1%; right: 10%; font-weight: 200; letter-spacing: normal; text-transform: title; text-shadow: none; text-decoration: none; font-family: Avenir"></header>
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<div class="slides">
+				
+				<section id="s01" data-state="s01" style="text-align: left;">
+					<style>.s01 header.R:after { content: "Faculty talks debrief";}</style>
+					<div style = "width: 48%; height: 50%; position: absolute">
+						<p>What makes a talk good?</p>
+						<ul style = "margin-left:10%">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div style = "width: 50%; height: 50%; margin-left: 52%; position: absolute">
+						<p>What makes a talk unnaproachable?</p>
+						<ul style = "margin-left:10%">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div style = "width: 100%; margin-top: 60%; margin-right: 2%; position: absolute; text-align: right">
+					</div>
+				</section>
+				
+				<section id="s02" data-state="s02" style="text-align: left;">
+					<style>.s02 header.R:after { content: "Kurt Vonnegut's Rules for the short story";}</style>
+					<div style = "width: 100%; height: 50%; position: absolute; margin-top:5%">
+						<ul>
+							<li>Use the time of a total stranger in such a way that he or she will not feel the time was wasted.</li>
+							<li>Give the reader at least one character he or she can root for.</li>
+							<li>Every character should want something, even if it is only a glass of water.</li>
+							<li>Every sentence must do one of two things–reveal character or advance the action.</li>
+							<li>Start as close to the end as possible.</li>
+							<li>Be a sadist. No matter how sweet and innocent your leading characters, make awful things happen to them–in order that the reader may see what they are made of.</li>
+							<li>Write to please just one person. If you open a window and make love to the world, so to speak, your story will get pneumonia.</li>
+							<li>Give your readers as much information as possible as soon as possible. To heck with suspense. Readers should have such complete understanding of what is going on, where and why, that they could finish the story themselves, should cockroaches eat the last few pages.</li>
+						</ul>
+					</div>
+					<div style = "width: 20%; height: 50%; margin-left: 82%; position: absolute">
+					</div>
+					<div style = "width: 100%; margin-top: 60%; margin-right: 2%; position: absolute; text-align: right">
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
